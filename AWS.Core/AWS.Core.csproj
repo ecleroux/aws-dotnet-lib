@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.S3" Version="4.0.17.2" />
+    <PackageReference Include="AWSSDK.SecurityToken" Version="4.0.5.7" />
+    <PackageReference Include="AWSSDK.SQS" Version="4.0.2.12" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces/" />
+    <Folder Include="Models/" />
+    <Folder Include="Services/" />
+  </ItemGroup>
+
+</Project>
